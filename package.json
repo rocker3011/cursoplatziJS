@@ -1,0 +1,32 @@
+{
+  "name": "platzom",
+  "version": "0.1.0",
+  "description": "curso platzi",
+  "main": "dist/src/platzom.js",
+  "scripts": {
+    "build": "babel src/platzom.js -d dist"
+    ,"test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rocker3011/cursoplatziJS.git"
+  },
+  "keywords": [
+    "platzom",
+    "fundamentos",
+    "javascript",
+    "js"
+  ],
+  "author": "Rodolfo Miquilarena <rockavenger3011@gmail.com> (prueba.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rocker3011/cursoplatziJS/issues"
+  },
+  "homepage": "https://github.com/rocker3011/cursoplatziJS#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.6.0",
+    "chai": "^4.0.2",
+    "mocha": "^3.4.2"
+  }
+}
